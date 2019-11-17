@@ -1,32 +1,15 @@
-# A Discord Music Bot written in JavaScript, the discord.js library and discord.js-commando framework
+# A Discord Music Bot written in JavaScript,Bot BY Snowclub
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-### Installing the dependencies
+## How To Use Music Bot
 
-`npm i`
+!DOWNLOAD FFmpeg https://www.ffmpeg.org/ or npm install discord.js ffmpeg ffmpeg-binaries opusscript ytdl-core --save
 
-### Setup
+!!HOW TO RUN BOT
 
-Make a config.json file in the root directory of the project and add:
+1.Open cmd
 
-```
-{
-  "prefix": "!",  // You can change the prefix to whatever you want it doesn't have to be - !
-  "token": "Your-Bot-Token",
-  "tenorAPI": "tenor-API-key",
-  "newsAPI": "news-api-key",
-  "youtubeAPI": "youtube-api-key",
-  "yandexAPI": "yandex-api-key",
-  "geniusLyricsAPI": "genius-api-key"
-}
-```
-
-I run the bot on a debian 9 environment so it might not work as intended on other operating systems, if you need a guide on how to install node.js on debian 9 or ubuntu I will link one in the resources down below.
-
-Also, no matter what operating system you have, make sure [ffmpeg](https://www.ffmpeg.org/download.html) and [python 2.7](https://www.python.org/downloads/) are installed.
-
-If you are not cloning this repo, make sure your dependencies versions are the same as this repo's.
+2.ืin the folder write : node index.js
 
 ### Commands
 
@@ -100,12 +83,3 @@ If you are not cloning this repo, make sure your dependencies versions are the s
 [Installing node.js on debian](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-debian-9)
 
 [Installing node.js on Windows](https://treehouse.github.io/installation-guides/windows/node-windows.html)
-
-### Contributing
-
-Fork it and submit a pull request!
-Anyone is welcome to suggest new features and improve code quality!
-
-## Contributors
-
-[encoder-glitch](https://github.com/encoder-glitch) - uptime command
